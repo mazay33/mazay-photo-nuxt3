@@ -8,6 +8,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
+    "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "autoprefixer": "^10.4.13",
     "nuxt": "3.0.0",
     "postcss": "^8.4.21",
@@ -17,6 +19,11 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
+    "@pinia/nuxt": "^0.4.6",
+    "@prisma/client": "^4.8.1",
+    "axios": "^1.2.2",
+    "pinia": "^2.0.28",
+    "prisma": "^4.8.1",
     "yarn": "^1.22.19"
   }
 }
